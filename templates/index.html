@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lチカアプリ</title>
+    </head>
+    <body>
+        <h2>Lチカアプリ</h2>
+        <form method="POST" action="/led-on">
+            <button type="submit" style="background-color: green; color: white; padding: 10px 20px">LED オン</button>
+        </form>
+        <br>
+        <form method="POST" action="/led-off">
+            <button type="submit" style="background-color: red; color: white; padding: 10px 20px">LED オフ</button>
+        </form>
+        <br>
+        <p>LEDライト：{{ mode }}</p>
+    </body>
+</html>
